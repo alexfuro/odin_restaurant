@@ -1,6 +1,8 @@
 const home_page = () => {
   const image = () => {
-    return 'background: #a71c0f url("images/home_splash.jpg") no-repeat left top';
+    let newImage = document.createElement("img");
+    newImage.setAttribute("src","images/home_splash.jpg");
+    return newImage;
   };
   const heading = () => {
     let newHeading = document.createElement("h1");
@@ -16,8 +18,8 @@ const home_page = () => {
   };
   const DOMmanip = () =>{
     let container = document.getElementById("content");
-    container.setAttribute("style", image());
     container.appendChild(heading());
+    container.appendChild(image());
     container.appendChild(caption());
     return true;
   };

@@ -4,9 +4,6 @@ const tabs = (newLabels) => {
     newTab.innerText = label;
     newTab.setAttribute("class", "tab");
     newTab.setAttribute("id", "tab-" + index);
-    newTab.setAttribute("style", "background: white; list-style: none; "
-    + "display: inline-block; height: 43px; padding: 0 20px;"
-    + "font-size: 20px; line-height: 43px;");
     return newTab;
   };
   const makeTabs = (labels) => {

@@ -11,7 +11,6 @@ const contact_page = () => {
   };
   const DOMmanip = () =>{
     let container = document.getElementById("content");
-    container.setAttribute("style", "background: #a71c0f;");
     container.appendChild(heading());
     container.appendChild(contact_info());
     return true;
