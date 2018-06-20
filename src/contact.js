@@ -6,7 +6,7 @@ const contact_page = () => {
   };
   const contact_info = () => {
     let newInfo = document.createElement("p");
-    newInfo.innerText = "La Esquina can be contacted at: Twitter: @laesquina";
+    newInfo.innerText = "La Esquina can be contacted at: 123 Elm Street, Some City, Some State 00XXX-XXXX";
     return newInfo;
   };
   const DOMmanip = () =>{
